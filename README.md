@@ -1,1 +1,2 @@
-# order-service-stack-terraform
+# order-service-stack
+Infrastructure for the order services
