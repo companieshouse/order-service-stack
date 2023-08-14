@@ -38,7 +38,7 @@ module "ecs-cluster" {
 }
 
 module "secrets" {
-  source = "./module-secrets"
+  source = "git@github.com:companieshouse/terraform-modules//aws/ecs/secrets?ref=1.0.191"
 
   name_prefix = local.name_prefix
   environment = var.environment
